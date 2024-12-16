@@ -44,7 +44,6 @@ run_synthesis
 
 ![image](https://github.com/user-attachments/assets/af18136e-869a-4ff6-b841-d0d76a17b3de)
 
-
 **What was the clock period ?**
 
 ![image](https://github.com/user-attachments/assets/357a3a55-1d2e-4ba4-abb8-a301cdd2037a)
@@ -84,6 +83,8 @@ trying a synthesis without sky130 configuration:
 
 ![image](https://github.com/user-attachments/assets/79b3fc2d-9abd-42ed-95bb-8cc5ef80968d)
 
+![image](https://github.com/user-attachments/assets/0b227e79-5f9c-433b-94c4-a76771282845)
+tns -4601.33 wns -28.88
 
 
 
