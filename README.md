@@ -87,6 +87,9 @@ trying a synthesis without sky130 configuration:
 tns -4601.33 wns -28.88
 
 
+![image](https://github.com/user-attachments/assets/d2eb012c-8287-49f1-a125-2ee561e81da1)
+
+Flop ratio = 100*1613/15337 = 10.51%
 
 
 
