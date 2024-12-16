@@ -36,16 +36,16 @@ prep -design picorv32a
 
 **The synthesis switches are comming from:**
 
-$WD/configuration/synthesis.tcl
+**$WD/configuration/synthesis.tcl**
 
 ![image](https://github.com/user-attachments/assets/418df43a-fc21-43df-8419-610c3d291331)
 
-$D/config.tcl
+**$D/config.tcl**
 
 ![image](https://github.com/user-attachments/assets/2e73033f-c875-4036-ae1b-f6d16bda6981)
 
 
-$D/sky130A_sky130_fd_sc_hd_config.tcl
+**$D/sky130A_sky130_fd_sc_hd_config.tcl (highest priority**
 
 ![image](https://github.com/user-attachments/assets/0f2c726d-f75a-48d5-8422-47ac10577102)
 
