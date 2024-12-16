@@ -123,7 +123,7 @@ run_synthesis
 
 ![image](https://github.com/user-attachments/assets/b5040775-11d8-4531-9702-6c903dddac6b)
 
-**the library** 
+**the library:** 
 
 **/home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib**
 
@@ -131,11 +131,11 @@ run_synthesis
 
 ![image](https://github.com/user-attachments/assets/b1d1073c-9a44-4893-bd97-b7c04f5cc1ee)
 
-**and the operating_conditions ("ff_n40C_1v95") is defined:**
+**and the operating_condition ("ff_n40C_1v95") is defined:**
 
 ![image](https://github.com/user-attachments/assets/baf0c47a-8dde-4903-a6ac-f2dca1103a9b)
 
-**the library** 
+**the library:** 
 
 **/home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib**
 
@@ -143,7 +143,7 @@ run_synthesis
 
 ![image](https://github.com/user-attachments/assets/365ded0c-b58f-409f-bbf8-5e4326110897)
 
-**and the operating_conditions ("ss_100C_1v60") is defined:**
+**and the operating_condition ("ss_100C_1v60") is defined:**
 
 ![image](https://github.com/user-attachments/assets/c56def9a-bcf1-40fe-aa75-98848c9d7b05)
 
