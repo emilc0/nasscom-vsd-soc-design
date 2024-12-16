@@ -44,4 +44,6 @@ run_synthesis
 ![image](https://github.com/user-attachments/assets/47c2c7d5-3b30-4fd0-aade-bbac8281cbb3)
 ![image](https://github.com/user-attachments/assets/432d4642-621f-4d4c-b37a-2c748fb37dce)
 
-(defined in 
+compute (nr of flop-flops)/(total number off stdcells) :
+![image](https://github.com/user-attachments/assets/4594ef7e-4a28-4afd-abe5-ab710ef1824b)
+100*1613/14876 = 10.84%
