@@ -25,6 +25,7 @@ prep -design picorv32a
 ![image](https://github.com/user-attachments/assets/13da1d7e-eb89-431f-a2c4-67c7cc7531c6)
 
 (tmp/merged.lef created - it should contain stdcells lef + tech lef)
-![image](https://github.com/user-attachments/assets/80824a8f-171b-4248-9678-306f6f383781)
+![image](https://github.com/user-attachments/assets/ff06b1d5-db79-42cf-b493-98f227c2b64e)
+
 
 
