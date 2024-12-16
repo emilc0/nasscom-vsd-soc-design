@@ -1,4 +1,4 @@
-***D1_SK3_L1 - D1_SK3_L5***
+***D1_SK3_L1 ... D1_SK3_L5***
 
 **Run openLANE flow**
 
@@ -153,7 +153,7 @@ run_synthesis
 
 
 
-***D2_SK1_L6***
+***D2_SK1_L6 ... D2_SK1_L8***
 
 **Floorplanning:**
 
