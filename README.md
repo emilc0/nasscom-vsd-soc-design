@@ -246,4 +246,4 @@ puts "$::env(FP_IO_MODE) =1?"
 
 run_floorplan
 
-
+***The pins -are- equidistant, horizontal pins in metal2, vertical pins in metal3. Checking why.***
