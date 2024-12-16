@@ -141,11 +141,13 @@ gedit $WD/configuration/README.md
 
 ** $D/sky130A_sky130_fd_sc_hd_config.tcl **
 
-The actual switches used by the flow are put in
+**The actual switches used by the flow are put in**
 
-$D/$R/config.tcl
+**$D/$R/config.tcl**
 
+**Run floorplanner:*
 
+run_floorplan
 
 
 
