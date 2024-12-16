@@ -231,11 +231,17 @@ magic -T $T lef read $D/$R/tmp/merged.lef def read $D/$R/results/floorplan/picor
 prep -design picorv32a -tag 16-12_12-43
 
 puts "$::env(FP_CORE_UTIL) =50?"
+
 puts "$set ::env(FP_ASPECT_RATIO) =0.75?"
+
 puts "$set ::env(FP_CORE_MARGIN) =0?"
+
 puts "$set ::env(FP_IO_HMETAL) =3?"
+
 puts "$set ::env(FP_IO_VMETAL) =4?"
+
 puts "$set ::env(FP_TAPCELL_DIST) =14?"
+
 puts "$set ::env(FP_IO_MODE) =1?"
 
 run_floorplan
