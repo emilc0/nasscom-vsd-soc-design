@@ -31,3 +31,9 @@ prep -design picorv32a
 run_synthesis
 ![image](https://github.com/user-attachments/assets/31126b29-5069-4d09-b2be-45e08c3af9fd)
 
+(synthesis done, tns=-759.46ns, wns=-24.89ns)
+![image](https://github.com/user-attachments/assets/4ae09d85-c520-4c9c-b2ef-bbaf0b22121f)
+
+(what is the clock period?)
+![image](https://github.com/user-attachments/assets/357a3a55-1d2e-4ba4-abb8-a301cdd2037a)
+
