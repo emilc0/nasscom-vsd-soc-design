@@ -37,7 +37,9 @@ prep -design picorv32a
 **The synthesis switches are comming from:**
 
 $WD/configuration/synthesis.tcl
+
 $D/config.tcl
+
 $D/sky130A_sky130_fd_sc_hd_config.tcl
 
 
