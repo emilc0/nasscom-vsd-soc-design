@@ -38,8 +38,6 @@ run_synthesis
 
 **Synthesis done, tns=-759.46ns, wns=-24.89ns**
 
-![image](https://github.com/user-attachments/assets/4ae09d85-c520-4c9c-b2ef-bbaf0b22121f)
-
 ![image](https://github.com/user-attachments/assets/6ae0d4d0-5c1d-4cae-8dbb-eeb453492d09)
 
 **The netlist was created: picorv32a.synthesis.v**
