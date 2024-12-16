@@ -194,4 +194,8 @@ run_floorplan
 ![image](https://github.com/user-attachments/assets/4d0cb450-fbc4-410f-849e-f73c68f1aea6)
 
 
+**check ioplacerlog:**
+
+gedit $D/$R/logs/floorplan/4-ioPlacer.log
+
 
