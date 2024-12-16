@@ -34,6 +34,10 @@ prep -design picorv32a
 **tmp/merged.lef created - contains stdcells lef + tech lef**
 ![image](https://github.com/user-attachments/assets/ff06b1d5-db79-42cf-b493-98f227c2b64e)
 
+**Read about synthesis switches here:**
+
+gedit $WD/configuration/README.md
+
 **The synthesis switches are comming from:**
 
 **$WD/configuration/synthesis.tcl**
@@ -123,9 +127,18 @@ run_synthesis
 
 
 
-**Read about floorplan switches:**
+**Read about floorplan switches here:**
 
 gedit $WD/configuration/README.md
+
+** The floorplan switches are read (in this order) from: **
+
+** $WD/configuration/floorplan.tcl **
+
+** $D/config.tcl ** 
+
+** $D/sky130A_sky130_fd_sc_hd_config.tcl **
+
 
 
 
