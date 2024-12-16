@@ -210,3 +210,6 @@ gedit $D/$R/results/floorplan/picorv32a.floorplan.def &
 
 magic -T $T lef read $D/$R/tmp/merged.lef def read $D/$R/results/floorplan/picorv32a.floorplan.def &
 
+![image](https://github.com/user-attachments/assets/0d4afac0-ba8c-439d-beed-aa020f9d543a)
+
+
