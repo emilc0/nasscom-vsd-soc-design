@@ -119,12 +119,13 @@ run_synthesis
 **Flop ratio = 100*1613/14876 = 10.84%**
 
 
-**To Do: explain this warning:**
+**TODO: explain this warning:**
 
 ![image](https://github.com/user-attachments/assets/b5040775-11d8-4531-9702-6c903dddac6b)
 
-![image](https://github.com/user-attachments/assets/b9d2270a-ec54-48b3-995c-010faa8a548e)
+![image](https://github.com/user-attachments/assets/b1d1073c-9a44-4893-bd97-b7c04f5cc1ee)
 
+![image](https://github.com/user-attachments/assets/365ded0c-b58f-409f-bbf8-5e4326110897)
 
 
 
