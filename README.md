@@ -119,6 +119,14 @@ run_synthesis
 **Flop ratio = 100*1613/14876 = 10.84%**
 
 
+**To Do: explain this warning:**
+
+![image](https://github.com/user-attachments/assets/b5040775-11d8-4531-9702-6c903dddac6b)
+
+![image](https://github.com/user-attachments/assets/b9d2270a-ec54-48b3-995c-010faa8a548e)
+
+
+
 
 **D2_SK1_L6**
 
@@ -161,6 +169,8 @@ gedit $WD/configuration/README.md
 run_floorplan
 
 ![image](https://github.com/user-attachments/assets/8109629b-5971-4e23-9cda-ba18494c3cc9)
+
+![image](https://github.com/user-attachments/assets/4d0cb450-fbc4-410f-849e-f73c68f1aea6)
 
 
 
