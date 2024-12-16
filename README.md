@@ -5,6 +5,7 @@
 **Prepare design**
 
 export WD=~/Desktop/work/tools/openlane_working_dir/openlane
+
 export D=~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a
 
 cd $WD
