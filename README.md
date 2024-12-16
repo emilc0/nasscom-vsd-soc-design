@@ -37,3 +37,11 @@ run_synthesis
 (what is the clock period?)
 ![image](https://github.com/user-attachments/assets/357a3a55-1d2e-4ba4-abb8-a301cdd2037a)
 
+(find out where it was defined)
+![image](https://github.com/user-attachments/assets/f15ba0a8-c576-4399-8dc7-81c53b84113d)
+![image](https://github.com/user-attachments/assets/e34a43a8-43c3-4413-901c-09c92fc46da2)
+
+![image](https://github.com/user-attachments/assets/47c2c7d5-3b30-4fd0-aade-bbac8281cbb3)
+![image](https://github.com/user-attachments/assets/432d4642-621f-4d4c-b37a-2c748fb37dce)
+
+(defined in 
