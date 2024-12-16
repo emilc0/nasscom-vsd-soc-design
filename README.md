@@ -208,7 +208,7 @@ gedit $D/$R/results/floorplan/picorv32a.floorplan.def &
 
 ![image](https://github.com/user-attachments/assets/997b5c05-a245-4e62-bb6d-2e7d1701ecf3)
 
-**read the def file with Magic:**
+**read the floorplan .def file with Magic:**
 
 magic -T $T lef read $D/$R/tmp/merged.lef def read $D/$R/results/floorplan/picorv32a.floorplan.def &
 
