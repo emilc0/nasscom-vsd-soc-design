@@ -6,7 +6,7 @@ cd $WD
 
 docker
 
-![image](https://github.com/user-attachments/assets/e46eacf2-2564-4209-8d24-94eb8594c5ee)
+![image](https://github.com/user-attachments/assets/e92a482f-0b48-4469-9e00-94635dd243e3)
 
 flow.tcl -interactive
 
