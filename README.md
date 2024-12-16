@@ -136,6 +136,8 @@ run_synthesis
 
 **-macro placement**
 
+**-power distribution**
+
 
 
 **Read about floorplan switches here:**
@@ -157,6 +159,8 @@ gedit $WD/configuration/README.md
 **Run floorplanner:*
 
 run_floorplan
+
+![image](https://github.com/user-attachments/assets/8109629b-5971-4e23-9cda-ba18494c3cc9)
 
 
 
