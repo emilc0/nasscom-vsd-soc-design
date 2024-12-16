@@ -5,6 +5,7 @@
 **Prepare design**
 
 export WD=~/Desktop/work/tools/openlane_working_dir/openlane
+export D=~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a
 
 cd $WD
 
@@ -31,6 +32,13 @@ prep -design picorv32a
 
 **tmp/merged.lef created - contains stdcells lef + tech lef**
 ![image](https://github.com/user-attachments/assets/ff06b1d5-db79-42cf-b493-98f227c2b64e)
+
+**The synthesis switches are comming from:**
+
+$WD/configuration/synthesis.tcl
+$D/config.tcl
+$D/sky130A_sky130_fd_sc_hd_config.tcl
+
 
 **Run synthesis:**
 
@@ -64,7 +72,7 @@ run_synthesis
 
 **Flop ratio = 100*1613/14876 = 10.84%**
 
-**re-synthetizing at 10ns (after exiting openLANE)**
+**re-synthetizing at 10ns (after exiting openLANE), reuse run directory**
 
 cd $WD
 docker
@@ -104,9 +112,10 @@ run_synthesis
 **-macro placement**
 
 
-**read about floorplan switches**
 
-gedit $OL/configuration/README.md
+**Read about floorplan switches:**
+
+gedit $WD/configuration/README.md
 
 
 
