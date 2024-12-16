@@ -1,12 +1,15 @@
 Run openLANE flow / Prepare design
 
 export WD=~/Desktop/work/tools/openlane_working_dir/openlane
+
 cd $WD
+
 docker
 
 ![image](https://github.com/user-attachments/assets/e46eacf2-2564-4209-8d24-94eb8594c5ee)
 
 flow.tcl -interactive
+
 package require openlane 0.9
 
 ![image](https://github.com/user-attachments/assets/ad651f49-75c1-47db-8642-4d565ed2360d)
