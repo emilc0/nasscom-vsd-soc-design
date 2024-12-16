@@ -75,11 +75,15 @@ set ::env(CLOCK_PERIOD) 10
 echo $::env(CLOCK_PERIOD)
 run_synthesis
 
-![image](https://github.com/user-attachments/assets/1052d1fd-4344-4546-96d6-43636a853b87)
+![image](https://github.com/user-attachments/assets/3f79c97e-8fca-471e-b85f-f40452ad9812)
+tns -4606.62 wns -28.94
 
-![image](https://github.com/user-attachments/assets/80bca81a-e685-4ecd-a076-02bdd006d28f)
+trying a synthesis without sky130 configuration:
 
-tns=-5279, wns = -39.62
+![image](https://github.com/user-attachments/assets/95774a3b-74fa-4a26-a959-d2b24db2fe28)
+
+![image](https://github.com/user-attachments/assets/79b3fc2d-9abd-42ed-95bb-8cc5ef80968d)
+
 
 
 
