@@ -218,3 +218,7 @@ magic -T $T lef read $D/$R/tmp/merged.lef def read $D/$R/results/floorplan/picor
 
 ![image](https://github.com/user-attachments/assets/37b7940b-0aef-42b6-8a9c-c703da381ed3)
 
+**make the settings match the video D2_SK1_L7 at 03:08:**
+
+![image](https://github.com/user-attachments/assets/e410a4eb-ab79-4a23-8cf5-0032ecbed258)
+
