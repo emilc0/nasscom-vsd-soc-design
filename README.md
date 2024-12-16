@@ -1,4 +1,4 @@
-**D1_SK3_L1 - D1_SK3_L5**
+***D1_SK3_L1 - D1_SK3_L5***
 
 **Run openLANE flow**
 
@@ -151,7 +151,9 @@ run_synthesis
 
 
 
-**D2_SK1_L6**
+
+
+***D2_SK1_L6***
 
 **Floorplanning:**
 
@@ -173,7 +175,7 @@ run_synthesis
 
 **Read about floorplan switches here:**
 
-gedit $WD/configuration/README.md
+gedit $WD/configuration/README.md &
 
 **The floorplan switches are read (in this order) from:**
 
