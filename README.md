@@ -89,6 +89,18 @@ run_synthesis
 
 **D2_SK1_L6**
 
+**Floorplanning
+-set die area
+-set core area
+-set aspect ratio
+-set utilization factor
+-pace I/O cells
+-macro placement**
+
+
+**read about floorplan switches**
+
+gedit $OL/configuration/README.md
 
 
 
