@@ -214,4 +214,7 @@ magic -T $T lef read $D/$R/tmp/merged.lef def read $D/$R/results/floorplan/picor
 
 ![image](https://github.com/user-attachments/assets/0d4afac0-ba8c-439d-beed-aa020f9d543a)
 
+***The pins are not equidistant, horizontal pins in metal3, vertical pins in metal2. Checking why.***
+
+![image](https://github.com/user-attachments/assets/37b7940b-0aef-42b6-8a9c-c703da381ed3)
 
