@@ -91,13 +91,21 @@ run_synthesis
 **re-synthetizing at 10ns (after exiting openLANE), reuse run directory**
 
 cd $WD
+
 docker
+
 ./flow.tcl -interactive
+
 package require openlane 0.9
+
 prep -design picorv32a -tag 16-12_12-43 -overwrite
+
 echo $::env(CLOCK_PERIOD)
+
 set ::env(CLOCK_PERIOD) 10
+
 echo $::env(CLOCK_PERIOD)
+
 run_synthesis
 
 ![image](https://github.com/user-attachments/assets/2486cacc-1e30-4bb6-a4bd-baeea024c32d)
