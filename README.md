@@ -8,6 +8,8 @@ export WD=~/Desktop/work/tools/openlane_working_dir/openlane
 
 export D=~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a
 
+export T=$WD/../pdks/sky130A/libs.tech/magic/sky130A.tech
+
 cd $WD
 
 docker
@@ -198,4 +200,13 @@ run_floorplan
 
 gedit $D/$R/logs/floorplan/4-ioPlacer.log
 
+**check result:**
+
+gedit $D/$R/results/floorplan/picorv32a.floorplan.def
+
+![image](https://github.com/user-attachments/assets/997b5c05-a245-4e62-bb6d-2e7d1701ecf3)
+
+**read the def file with Magic:**
+
+magic -T $T lef read $D/$R/tmp/mergerd.lef def read $D/$R/results/floorplan/picorv32a.floorplan.def
 
