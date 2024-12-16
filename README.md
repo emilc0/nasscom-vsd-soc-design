@@ -63,4 +63,11 @@ run_synthesis
 
 **Flop ratio = 100*1613/14876 = 10.84%**
 
+**re-synthetizing at 10ns**
+
+prep -design picorv32a -tag 16-12_12-43 - overwrite
+
+![image](https://github.com/user-attachments/assets/3901a140-f98d-4453-aafd-6b5acefdd46b)
+
+
 
