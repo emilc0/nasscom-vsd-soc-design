@@ -179,15 +179,15 @@ gedit $WD/configuration/README.md &
 
 **The floorplan switches are read (in this order) from:**
 
-**$WD/configuration/floorplan.tcl**
+gedit $WD/configuration/floorplan.tcl &
 
-**$D/config.tcl** 
+gedit $D/config.tcl &
 
-**$D/sky130A_sky130_fd_sc_hd_config.tcl**
+gedit $D/sky130A_sky130_fd_sc_hd_config.tcl &
 
-**The actual switches used by the flow are put in**
+**The actual switches used by the flow are put in:**
 
-**$D/$R/config.tcl**
+gedit $D/$R/config.tcl &
 
 **Run floorplanner:**
 
