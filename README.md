@@ -108,9 +108,10 @@ echo $::env(CLOCK_PERIOD)
 
 run_synthesis
 
-![image](https://github.com/user-attachments/assets/2486cacc-1e30-4bb6-a4bd-baeea024c32d)
+![image](https://github.com/user-attachments/assets/559fb349-fc33-4854-8d1e-3597c795ad42)
 
-**tns -4581.81 wns -28.94**
+
+**tns -4606.62 wns -28.94**
 
 ![image](https://github.com/user-attachments/assets/b865af40-5b33-43cb-a42a-8485a0f8e9f1)
 
