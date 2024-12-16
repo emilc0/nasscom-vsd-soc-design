@@ -40,7 +40,8 @@ run_synthesis
 
 ![image](https://github.com/user-attachments/assets/4ae09d85-c520-4c9c-b2ef-bbaf0b22121f)
 
-**Netlist: picorv32a.synthesis.v**
+**The netlist was created: picorv32a.synthesis.v**
+
 ![image](https://github.com/user-attachments/assets/af18136e-869a-4ff6-b841-d0d76a17b3de)
 
 
