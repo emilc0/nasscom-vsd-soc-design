@@ -74,22 +74,13 @@ set ::env(CLOCK_PERIOD) 10
 echo $::env(CLOCK_PERIOD)
 run_synthesis
 
-![image](https://github.com/user-attachments/assets/3f79c97e-8fca-471e-b85f-f40452ad9812)
-tns -4606.62 wns -28.94
+![image](https://github.com/user-attachments/assets/2486cacc-1e30-4bb6-a4bd-baeea024c32d)
 
-trying a synthesis without sky130 configuration:
+tns -4581.81 wns -28.94
 
-![image](https://github.com/user-attachments/assets/95774a3b-74fa-4a26-a959-d2b24db2fe28)
+![image](https://github.com/user-attachments/assets/b865af40-5b33-43cb-a42a-8485a0f8e9f1)
 
-![image](https://github.com/user-attachments/assets/79b3fc2d-9abd-42ed-95bb-8cc5ef80968d)
-
-![image](https://github.com/user-attachments/assets/0b227e79-5f9c-433b-94c4-a76771282845)
-tns -4601.33 wns -28.88
-
-
-![image](https://github.com/user-attachments/assets/d2eb012c-8287-49f1-a125-2ee561e81da1)
-
-Flop ratio = 100*1613/15337 = 10.51%
+Flop ratio = 100*1613/14876 = 10.84%
 
 
 
