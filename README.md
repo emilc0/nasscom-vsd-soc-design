@@ -31,6 +31,7 @@ prep -design picorv32a
 ![image](https://github.com/user-attachments/assets/ff06b1d5-db79-42cf-b493-98f227c2b64e)
 
 **Run synthesis:**
+
 run_synthesis
 
 ![image](https://github.com/user-attachments/assets/31126b29-5069-4d09-b2be-45e08c3af9fd)
