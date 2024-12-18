@@ -1,3 +1,5 @@
+# Synthesis
+
 **Info about synthesis switches :** gedit $WD/configuration/README.md
 
 **The synthesis switches are comming, in order, from:**
@@ -18,9 +20,8 @@
  $D/$R/config.tcl
 
 
-**Run synthesis:**
 
-run_synthesis
+**Runing the synthesis:** run_synthesis
 
 ![image](https://github.com/user-attachments/assets/31126b29-5069-4d09-b2be-45e08c3af9fd)
 
@@ -50,7 +51,8 @@ run_synthesis
 
 **Flop ratio = 100*1613/14876 = 10.84%**
 
-**re-synthetizing at 10ns (after exiting openLANE), reuse run directory**
+**re-synthetizing at 10ns based on the clarification from WhatsApp channel**
+**(reuse run directory after restarting openLANE)**
 
 cd $WD
 
@@ -71,7 +73,6 @@ echo $::env(CLOCK_PERIOD)
 run_synthesis
 
 ![image](https://github.com/user-attachments/assets/559fb349-fc33-4854-8d1e-3597c795ad42)
-
 
 **tns -4606.62 wns -28.94**
 
