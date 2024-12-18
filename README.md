@@ -1,6 +1,7 @@
 **Run openLANE flow**
 
 [design preparation](dir1/dir1.md)
+[synthesis](dir2/dir2.md)
 
 
 
