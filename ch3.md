@@ -61,8 +61,6 @@ docker
 
 package require openlane 0.9
 
-prep -design picorv32a -tag 16-12_12-43 -overwrite
-
 prep -design picorv32a -tag 16-12_12-43
 
 
