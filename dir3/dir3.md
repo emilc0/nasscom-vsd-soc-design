@@ -96,36 +96,6 @@ magic -T $T lef read $D/$R/tmp/merged.lef def read $D/$R/results/floorplan/picor
 
 ![image](https://github.com/user-attachments/assets/0d4afac0-ba8c-439d-beed-aa020f9d543a)
 
-***The pins are not equidistant, horizontal pins in metal3, vertical pins in metal2. Checking why.***
 
-![image](https://github.com/user-attachments/assets/37b7940b-0aef-42b6-8a9c-c703da381ed3)
 
-**make the settings match the video D2_SK1_L7 at 03:08:**
-
-![image](https://github.com/user-attachments/assets/e410a4eb-ab79-4a23-8cf5-0032ecbed258)
-
-**modify config.tcl in the design directory:**
-
-![image](https://github.com/user-attachments/assets/1f23c04d-e975-4cca-b223-5e96c49ab8c7)
-
-**and redo the floorplan**
-
-prep -design picorv32a -tag 16-12_12-43
-
-puts "$::env(FP_CORE_UTIL) =50?"
-
-puts "$::env(FP_ASPECT_RATIO) =0.75?"
-
-puts "$::env(FP_CORE_MARGIN) =0?"
-
-puts "$::env(FP_IO_HMETAL) =3?"
-
-puts "$::env(FP_IO_VMETAL) =4?"
-
-puts "$::env(FP_TAPCELL_DIST) =14?"
-
-puts "$::env(FP_IO_MODE) =1?"
-
-run_floorplan
-
-***Now The pins -are- equidistant, horizontal pins in metal2, vertical pins in metal3. Checking why.***
+**The pins are equidistant, horizontal pins in metal2, vertical pins in metal3**
