@@ -1,7 +1,7 @@
 
-***D2_SK1_L6 ... D2_SK1_L8***
+# D2_SK1_L6 ... D2_SK1_L8
 
-**Floorplanning:**
+# Floorplanning:
 
 **-set die area**
 
