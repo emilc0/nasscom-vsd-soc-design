@@ -1,5 +1,4 @@
-**Info about synthesis switches :**  
-gedit $WD/configuration/README.md
+**Info about synthesis switches :** gedit $WD/configuration/README.md
 
 **The synthesis switches are comming, in order, from:**
 
