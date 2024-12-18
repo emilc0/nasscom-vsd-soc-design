@@ -69,6 +69,8 @@ puts "$::env(FP_TAPCELL_DIST) =14?"
 
 puts "$::env(FP_IO_MODE) =1?"
 
+set ::env(LIB_SYNTH_COMPLETE) 1
+
 run_floorplan
 
 ![image](https://github.com/user-attachments/assets/8109629b-5971-4e23-9cda-ba18494c3cc9)
