@@ -39,6 +39,11 @@ gedit $D/sky130A_sky130_fd_sc_hd_config.tcl &
 gedit $D/$R/config.tcl &
 
 
+**as an example, let's see the requested metal for pads:**
+
+![image](https://github.com/user-attachments/assets/25a673e6-1f87-477d-a4bd-c48492506881)
+
+
 ## Run floorplanner:
 
 run_floorplan
