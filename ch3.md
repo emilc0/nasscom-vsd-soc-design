@@ -53,7 +53,18 @@ gedit $D/$R/config.tcl &
 
 ## Run floorplanner:
 
+cd $WD
+
+docker
+
+./flow.tcl -interactive
+
+package require openlane 0.9
+
+prep -design picorv32a -tag 16-12_12-43 -overwrite
+
 prep -design picorv32a -tag 16-12_12-43
+
 
 puts "$::env(FP_CORE_UTIL) =50?"
 
@@ -68,6 +79,7 @@ puts "$::env(FP_IO_VMETAL) =4?"
 puts "$::env(FP_TAPCELL_DIST) =14?"
 
 puts "$::env(FP_IO_MODE) =1?"
+
 
 set ::env(LIB_SYNTH_COMPLETE) 1
 
