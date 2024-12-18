@@ -78,7 +78,9 @@ run_synthesis
 **tns -4606.62 wns -28.94**
 
 ![image](https://github.com/user-attachments/assets/b865af40-5b33-43cb-a42a-8485a0f8e9f1)
+
 **number of flops: 1,613, number of stdcells 14,876** 
+
 **Flop ratio = 100*1613/14876 = 10.84%**
 
 
