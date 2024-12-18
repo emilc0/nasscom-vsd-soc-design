@@ -39,7 +39,15 @@ gedit $D/sky130A_sky130_fd_sc_hd_config.tcl &
 gedit $D/$R/config.tcl &
 
 
-## Run floorplanner:
+**make the settings match the video D2_SK1_L7 at 03:08:**
+
+![image](https://github.com/user-attachments/assets/e410a4eb-ab79-4a23-8cf5-0032ecbed258)
+
+**modify config.tcl in the design directory:**
+
+![image](https://github.com/user-attachments/assets/1f23c04d-e975-4cca-b223-5e96c49ab8c7)
+
+**and run the floorplaner**
 
 cd $WD
 
@@ -50,6 +58,20 @@ flow.tcl -interactive
 package require openlane 0.9
 
 prep -design picorv32a -tag 16-12_12-43
+
+puts "$::env(FP_CORE_UTIL) =50?"
+
+puts "$::env(FP_ASPECT_RATIO) =0.75?"
+
+puts "$::env(FP_CORE_MARGIN) =0?"
+
+puts "$::env(FP_IO_HMETAL) =3?"
+
+puts "$::env(FP_IO_VMETAL) =4?"
+
+puts "$::env(FP_TAPCELL_DIST) =14?"
+
+puts "$::env(FP_IO_MODE) =1?"
 
 run_floorplan
 
