@@ -1,18 +1,18 @@
-**Read about synthesis switches here:**
+**Info about synthesis switches :**
 
 gedit $WD/configuration/README.md
 
-**The synthesis switches are comming from:**
+**The synthesis switches are comming, in order, from:**
 
-**$WD/configuration/synthesis.tcl**
+**1. $WD/configuration/synthesis.tcl**
 
 ![image](https://github.com/user-attachments/assets/418df43a-fc21-43df-8419-610c3d291331)
 
-**$D/config.tcl**
+**2. $D/config.tcl**
 
 ![image](https://github.com/user-attachments/assets/2e73033f-c875-4036-ae1b-f6d16bda6981)
 
-**$D/sky130A_sky130_fd_sc_hd_config.tcl (highest priority**
+**3. $D/sky130A_sky130_fd_sc_hd_config.tcl (highest priority**
 
 ![image](https://github.com/user-attachments/assets/0f2c726d-f75a-48d5-8422-47ac10577102)
 
