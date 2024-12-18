@@ -92,11 +92,11 @@ gedit $D/$R/results/floorplan/picorv32a.floorplan.def &
 
 horizontal pads are indeed in met2:
 
-![2024-12-18 21_36_01-workshop  Running  - Oracle VM VirtualBox](https://github.com/user-attachments/assets/5236bd42-6f1e-44ff-8949-7f02b2a952fa)
+![image](https://github.com/user-attachments/assets/e889cbb2-cdd8-45d8-a66e-787aff5191cc)
 
 vertical pads are indeed in met3:
 
-![image](https://github.com/user-attachments/assets/629b6a90-76b9-448a-9ad8-88bdf20c29fa)
+![image](https://github.com/user-attachments/assets/3fe933bf-d230-4555-bc98-bce44864e515)
 
 
 ## read the floorplan .def file with Magic:
@@ -104,6 +104,11 @@ vertical pads are indeed in met3:
 magic -T $T lef read $D/$R/tmp/merged.lef def read $D/$R/results/floorplan/picorv32a.floorplan.def &
 
 ![image](https://github.com/user-attachments/assets/0d4afac0-ba8c-439d-beed-aa020f9d543a)
+
+![image](https://github.com/user-attachments/assets/f9c7907b-519f-4189-8365-8902548e6c45)
+
+![image](https://github.com/user-attachments/assets/75a3ab6b-1ea0-4f1f-8ce4-718088f7a493)
+
 
 
 
