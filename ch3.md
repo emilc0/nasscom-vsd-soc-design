@@ -2,7 +2,8 @@
 
 # D2_SK1_L6 ... D2_SK1_L8
 
-**will:**
+**During the floorplanning we will:**
+
 **-set die area**
 
 **-set core area**
