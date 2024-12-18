@@ -53,7 +53,7 @@ run_synthesis
 
 **Flop ratio = 100*1613/14876 = 10.84%**
 
-## re-synthetizing at 10ns based on the clarification from WhatsApp channel
+## Re-synthetizing with a clock period of 10ns (based on the clarification from WhatsApp group)
 **(reuse run directory after restarting openLANE)**
 
 cd $WD
