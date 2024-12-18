@@ -54,24 +54,16 @@ run_synthesis
 **Flop ratio = 100*1613/14876 = 10.84%**
 
 ## Re-synthetizing with a clock period of 10ns (based on the clarification from WhatsApp group)
-**(reuse run directory after restarting openLANE)**
+**(reuse the "run" directory after restarting openLANE)**
 
 cd $WD
-
 docker
-
 ./flow.tcl -interactive
-
 package require openlane 0.9
-
 prep -design picorv32a -tag 16-12_12-43 -overwrite
-
 echo $::env(CLOCK_PERIOD)
-
 set ::env(CLOCK_PERIOD) 10
-
 echo $::env(CLOCK_PERIOD)
-
 run_synthesis
 
 ![image](https://github.com/user-attachments/assets/559fb349-fc33-4854-8d1e-3597c795ad42)
