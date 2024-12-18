@@ -1,8 +1,9 @@
 # Synthesis
 
-**Info about synthesis switches :** gedit $WD/configuration/README.md
+## Info about synthesis switches :
+gedit $WD/configuration/README.md
 
-**The synthesis switches are comming, in order, from:**
+## The synthesis switches are comming, in order, from:
 
 **1. $WD/configuration/synthesis.tcl**
 
@@ -21,7 +22,8 @@
 
 
 
-**Runing the synthesis:** run_synthesis
+## Runing the synthesis:
+run_synthesis
 
 ![image](https://github.com/user-attachments/assets/31126b29-5069-4d09-b2be-45e08c3af9fd)
 
@@ -45,13 +47,13 @@
 ![image](https://github.com/user-attachments/assets/47c2c7d5-3b30-4fd0-aade-bbac8281cbb3)
 ![image](https://github.com/user-attachments/assets/432d4642-621f-4d4c-b37a-2c748fb37dce)
 
-**Compute flop ratio = (nr of flop-flops)/(total number off stdcells) :**
+## Compute flop ratio = (nr of flop-flops)/(total number off stdcells) :
 
 ![image](https://github.com/user-attachments/assets/4594ef7e-4a28-4afd-abe5-ab710ef1824b)
 
 **Flop ratio = 100*1613/14876 = 10.84%**
 
-**re-synthetizing at 10ns based on the clarification from WhatsApp channel**
+## re-synthetizing at 10ns based on the clarification from WhatsApp channel
 **(reuse run directory after restarting openLANE)**
 
 cd $WD
@@ -82,7 +84,7 @@ run_synthesis
 **Flop ratio = 100*1613/14876 = 10.84%**
 
 
-**TODO: explain this warning:**
+## TODO: explain this warning:
 
 ![image](https://github.com/user-attachments/assets/b5040775-11d8-4531-9702-6c903dddac6b)
 
