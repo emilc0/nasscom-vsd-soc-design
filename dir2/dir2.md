@@ -1,5 +1,4 @@
-**Info about synthesis switches :**
-
+**Info about synthesis switches :**  
 gedit $WD/configuration/README.md
 
 **The synthesis switches are comming, in order, from:**
@@ -16,11 +15,9 @@ gedit $WD/configuration/README.md
 
 ![image](https://github.com/user-attachments/assets/0f2c726d-f75a-48d5-8422-47ac10577102)
 
-**The actual switches used by the flow are put in**
+**The "prep" command stores the actual switches in**
+ $D/$R/config.tcl
 
-$D/$R/config.tcl
-
-**by the "prep" command**
 
 **Run synthesis:**
 
