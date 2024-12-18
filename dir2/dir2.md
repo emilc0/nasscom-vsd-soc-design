@@ -57,27 +57,32 @@ run_synthesis
 **(reuse the "run" directory after restarting openLANE)**
 
 cd $WD
+
 docker
+
 ./flow.tcl -interactive
+
 package require openlane 0.9
+
 prep -design picorv32a -tag 16-12_12-43 -overwrite
+
 echo $::env(CLOCK_PERIOD)
+
 set ::env(CLOCK_PERIOD) 10
+
 echo $::env(CLOCK_PERIOD)
+
 run_synthesis
 
 ![image](https://github.com/user-attachments/assets/559fb349-fc33-4854-8d1e-3597c795ad42)
-
 **tns -4606.62 wns -28.94**
 
 ![image](https://github.com/user-attachments/assets/b865af40-5b33-43cb-a42a-8485a0f8e9f1)
-
 **number of flops: 1,613, number of stdcells 14,876** 
 **Flop ratio = 100*1613/14876 = 10.84%**
 
 
 ## TODO: explain this warning:
-
 ![image](https://github.com/user-attachments/assets/b5040775-11d8-4531-9702-6c903dddac6b)
 
 **the library /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib  exists:**
