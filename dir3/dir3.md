@@ -103,13 +103,12 @@ vertical pads are indeed in met3:
 
 magic -T $T lef read $D/$R/tmp/merged.lef def read $D/$R/results/floorplan/picorv32a.floorplan.def &
 
-![image](https://github.com/user-attachments/assets/0d4afac0-ba8c-439d-beed-aa020f9d543a)
+![image](https://github.com/user-attachments/assets/a80c170b-a281-4e87-9929-2397e1a85f82)
 
 ![image](https://github.com/user-attachments/assets/f9c7907b-519f-4189-8365-8902548e6c45)
 
 ![image](https://github.com/user-attachments/assets/75a3ab6b-1ea0-4f1f-8ce4-718088f7a493)
 
-
-
+![image](https://github.com/user-attachments/assets/2cca46b0-9248-4be2-bdd3-01b46e122bd5)
 
 **The pins are equidistant, horizontal pins in metal2, vertical pins in metal3**
