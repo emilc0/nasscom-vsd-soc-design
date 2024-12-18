@@ -111,11 +111,18 @@ magic -T $T lef read $D/$R/tmp/merged.lef def read $D/$R/results/floorplan/picor
 
 ![image](https://github.com/user-attachments/assets/0d4afac0-ba8c-439d-beed-aa020f9d543a)
 
-***The pins are not equidistant, horizontal pins in metal3, vertical pins in metal2. Checking why.***
 
 ![image](https://github.com/user-attachments/assets/37b7940b-0aef-42b6-8a9c-c703da381ed3)
 
 
 
-***Now The pins -are- equidistant, horizontal pins in metal2, vertical pins in metal3. Checking why.***
+***Now The pins are equidistant, horizontal pins in metal2, vertical pins in metal3***
+
+
+# Die area
+
+![image](https://github.com/user-attachments/assets/a04af4e3-3e6d-4d33-afad-13843ddf2dd5)
+
+**(641560/1000) x (494650/1000) = 317,347um2**
+
 
