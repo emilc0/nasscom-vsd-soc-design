@@ -112,3 +112,10 @@ magic -T $T lef read $D/$R/tmp/merged.lef def read $D/$R/results/floorplan/picor
 ![image](https://github.com/user-attachments/assets/2cca46b0-9248-4be2-bdd3-01b46e122bd5)
 
 **The pins are equidistant, horizontal pins in metal2, vertical pins in metal3**
+
+## Die area
+
+![image](https://github.com/user-attachments/assets/38310e49-6264-4bae-8896-f8810cb93523)
+
+**(641560/1000) x  (494650/1000) um2 = 317347um2 = 0.31mm2**
+
