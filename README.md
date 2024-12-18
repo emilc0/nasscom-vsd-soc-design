@@ -1,9 +1,9 @@
 **Run openLANE flow**
 
-[Design preparation](dir1/dir1.md)
+[Design preparation](ch1.md)
 
-[Synthesis](dir2/dir2.md)
+[Synthesis](ch2.md)
 
-[Floorplanning](dir2/dir2.md)
+[Floorplanning](ch3.md)
 
 
