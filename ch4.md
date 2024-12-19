@@ -34,7 +34,7 @@ DIEAREA ( 0 0 ) ( 564045 436515 )    0.245mm2   util 65%
 
 ![image](https://github.com/user-attachments/assets/ba9178f1-b531-44ff-be9c-f0e0e52c07c3)
 
-puts "$::env(FP_SIZING) ="absolute ?"
+puts "$::env(FP_SIZING) = absolute ?"
 
 puts "$::env(DIE_AREA) = 0 0 1250 1250 ?"
 
