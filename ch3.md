@@ -142,5 +142,8 @@ https://openlane.readthedocs.io/en/2023.09.07/reference/configuration.html
 **DIE_AREA: Specific die area to be used in floorplanning when FP_SIZING is set to absolute. Specified as a 4-corner rectangle “x0 y0 x1 y1”. Units in μm
 (Default: unset)**
 
+after synthesis: 0.149mm2
+DIEAREA ( 0 0 ) ( 641560 494650 )    0.317mm2   util 50%
+DIEAREA ( 0 0 ) ( 564045 436515 )    0.245mm2   util 65%
 
 
