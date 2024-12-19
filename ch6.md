@@ -29,19 +29,23 @@ Chip area for module '\picorv32a': 149084.233600
 tns -4560.27
 wns -28.03
 
-**used in the videos**
-**set ::env(SYNTH_STRATEGY) 2  (ko)**
 
-**set ::env(SYNTH_STRATEGY) "DELAY 2"**
+**used in the videos ?! (it is not accepted by the tool)**
+set ::env(SYNTH_STRATEGY) 2
+
+
+set ::env(SYNTH_STRATEGY) "DELAY 2"
 Chip area for module '\picorv32a': 206839.625600
 tns -773.56
 wns -6.26
 
-**set ::env(SYNTH_STRATEGY) "DELAY 0"**
-
+set ::env(SYNTH_STRATEGY) "DELAY 0"
 Chip area for module '\picorv32a': 198778.144000
 tns -788.53
 wns -5.52
+
+
+set ::env(SYNTH_STRATEGY) "DELAY 3"
 
 
 
