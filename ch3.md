@@ -126,3 +126,18 @@ magic -T $T lef read $D/$R/tmp/merged.lef def read $D/$R/results/floorplan/picor
 **(641560/1000) x (494650/1000) = 317,347um2**
 
 
+## debugging place error
+
+![image](https://github.com/user-attachments/assets/fca8b0a7-b080-447a-9607-d4e0da1415a6)
+
+**in $D/$R/config.tcl:
+set ::env(FP_SIZING) "relative"
+DIE_AREA not defined**
+
+https://openlane.readthedocs.io/en/2023.09.07/reference/configuration.html
+
+**FP_SIZING: Whether to use relative sizing by making use of FP_CORE_UTIL or absolute one using DIE_AREA.
+(Default: "relative" - accepts "absolute" as well)**
+**DIE_AREA: Specific die area to be used in floorplanning when FP_SIZING is set to absolute. Specified as a 4-corner rectangle “x0 y0 x1 y1”. Units in μm
+(Default: unset)**
+
