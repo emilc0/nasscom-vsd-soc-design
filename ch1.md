@@ -22,13 +22,13 @@ package require openlane 0.9
 
 prep -design picorv32a
 
-if restaring the flow or restarting docker:
+**if restaring the flow or restarting docker:**
 
-starting anew
+**starting anew**
 
 prep -design picorv32a -tag 16-12_12-43 -overwrite
 
-start from where we left
+**start from where we left**
 
 prep -design picorv32a -tag 16-12_12-43 -overwrite
 
