@@ -1,4 +1,4 @@
-# Repair slack after synthesis
+# Improve slack by modifying the synthesis parameters
 
 D4_SK1_L7
 
