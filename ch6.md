@@ -57,7 +57,14 @@ tns -788.53
 wns -5.52
 
 
-set ::env(SYNTH_STRATEGY) "DELAY 3"
+## set ::env(SYNTH_STRATEGY) "DELAY 3"
+
+Chip area for module '\picorv32a': 181510.332800
+
+tns -983.13
+
+wns -7.05
+
 
 
 
