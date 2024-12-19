@@ -21,7 +21,8 @@ echo $::env(SYNTH_DRIVING_CELL)
 (sky130_inv8, ok)
 
 
-gedit 2-opensta.timing.rpt  &
+
+**gedit 2-opensta.timing.rpt &**
 
 before (SYNTH_SIZING=0)
 
