@@ -23,6 +23,9 @@ DELAY 0
 
 set ::env(SYNTH_STRATEGY) 1
 
+Bad format shown in the video !
+
+![image](https://github.com/user-attachments/assets/944bee52-d364-4916-b7a8-2945e5c0fb1d)
 
 
 
