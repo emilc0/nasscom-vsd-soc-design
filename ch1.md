@@ -22,6 +22,16 @@ package require openlane 0.9
 
 prep -design picorv32a
 
+if restaring the flow or restarting docker:
+
+starting anew
+
+prep -design picorv32a -tag 16-12_12-43 -overwrite
+
+start from where we left
+
+prep -design picorv32a -tag 16-12_12-43 -overwrite
+
 ![image](https://github.com/user-attachments/assets/3aa5bec3-3973-407d-81d3-5724129053a8)
 
 **directory ~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/16-12_12-43 created :**
