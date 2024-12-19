@@ -143,7 +143,10 @@ https://openlane.readthedocs.io/en/2023.09.07/reference/configuration.html
 (Default: unset)**
 
 after synthesis: 0.149mm2
+
 DIEAREA ( 0 0 ) ( 641560 494650 )    0.317mm2   util 50%
+
 DIEAREA ( 0 0 ) ( 564045 436515 )    0.245mm2   util 65%
+
 
 
