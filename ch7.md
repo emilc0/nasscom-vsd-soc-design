@@ -27,6 +27,7 @@ Bad format shown in the video !
 
 Old description:
 `SYNTH_STRATEGY` | Strategies for abc logic synthesis and technology mapping <br> Possible values are `DELAY/AREA 0-3/0-2`; the first part refers to the optimization target of the synthesis
+"setting 1 => area will increase, timing will improve compared to setting 2"
 
 
 magic -T $T lef read $D/$R/tmp/merged.lef def read $D/$R/results/placement/picorv32a.placement.def &
