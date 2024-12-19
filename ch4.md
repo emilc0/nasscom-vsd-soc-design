@@ -12,6 +12,8 @@
 
 ![image](https://github.com/user-attachments/assets/fca8b0a7-b080-447a-9607-d4e0da1415a6)
 
+problem discussed here: https://web.open-source-silicon.dev/t/422608/i-m-attempting-to-harden-my-design-using-option-1-in-the-car
+
 **in $D/$R/config.tcl:
 set ::env(FP_SIZING) "relative"
 DIE_AREA not defined**
