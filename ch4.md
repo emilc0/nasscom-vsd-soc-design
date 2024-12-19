@@ -58,6 +58,14 @@ Will look later for min DIE_SIZE for which the placement do not give the previou
 
 magic -T $T lef read $D/$R/tmp/merged.lef def read $D/$R/results/placement/picorv32a.placement.def &
 
+![image](https://github.com/user-attachments/assets/78566019-a6cd-4a2a-a948-75e58ffbe926)
+
+![image](https://github.com/user-attachments/assets/45774d7e-96fa-41d0-a278-1d3161727e41)
+
+
+gedit $D/$R/results/placement/picorv32a.placement.def &
+
+
 
 
 
