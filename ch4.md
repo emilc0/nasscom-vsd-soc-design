@@ -69,6 +69,41 @@ gedit $D/$R/results/placement/picorv32a.placement.def &
 
 
 
+# with  set ::env(SYNTH_STRATEGY) "DELAY 0"
+
+
+## set ::env(DIE_AREA) "0 0 750 750"
+
+
+
+
+## set ::env(DIE_AREA) "0 0 740 740"
+
+tns -51.28 wns -3.72
+
+utilization                46 %
+
+utilization padded         67 %
+
+
+
+## set ::env(DIE_AREA) "0 0 730 730"
+
+tns -52.35 wns -3.62
+
+utilization                48 %
+
+utilization padded         69 %
+
+
+
+
+
+
+
+
+
+
 
 
 
