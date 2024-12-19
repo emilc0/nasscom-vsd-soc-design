@@ -138,6 +138,9 @@ https://openlane.readthedocs.io/en/2023.09.07/reference/configuration.html
 
 **FP_SIZING: Whether to use relative sizing by making use of FP_CORE_UTIL or absolute one using DIE_AREA.
 (Default: "relative" - accepts "absolute" as well)**
+
 **DIE_AREA: Specific die area to be used in floorplanning when FP_SIZING is set to absolute. Specified as a 4-corner rectangle “x0 y0 x1 y1”. Units in μm
 (Default: unset)**
+
+
 
