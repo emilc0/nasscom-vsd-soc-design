@@ -74,6 +74,11 @@ gedit $D/$R/results/placement/picorv32a.placement.def &
 
 ## set ::env(DIE_AREA) "0 0 750 750"
 
+tns -60.49 wns -3.67
+
+utilization                45 %
+
+utilization padded         65 %
 
 
 
