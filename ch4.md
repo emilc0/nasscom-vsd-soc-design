@@ -56,7 +56,7 @@ Will look later for min DIE_SIZE for which the placement do not give the previou
 ![image](https://github.com/user-attachments/assets/8614ef12-ec08-4086-86b8-c40653be93aa)
 
 
-magic -T $T lef read $D/$R/tmp/merged.lef def read $D/$R/results/floorplan/picorv32a.placement.def &
+magic -T $T lef read $D/$R/tmp/merged.lef def read $D/$R/results/placement/picorv32a.placement.def &
 
 
 
