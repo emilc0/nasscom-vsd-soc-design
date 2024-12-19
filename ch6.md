@@ -30,14 +30,14 @@ tns -4560.27
 wns -28.03
 
 **used in the videos**
-set ::env(SYNTH_STRATEGY) 2
+**set ::env(SYNTH_STRATEGY) 2  (ko)**
 
-ko
-
-set ::env(SYNTH_STRATEGY) "DELAY 2"
+**set ::env(SYNTH_STRATEGY) "DELAY 2"**
 Chip area for module '\picorv32a': 206839.625600
 tns -773.56
 wns -6.26
+
+**set ::env(SYNTH_STRATEGY) "DELAY 0"**
 
 
 
