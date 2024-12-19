@@ -14,7 +14,7 @@
 
 [Improve slack by modifying synthesis parameters](ch7.md)
 
-
+[timing analysis](ch8.md)
 
 
 [reference] (https://openlane.readthedocs.io/en/2023.09.07/reference/configuration.html)
