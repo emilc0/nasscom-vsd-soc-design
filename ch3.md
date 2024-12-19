@@ -154,3 +154,4 @@ puts "$::env(FP_SIZING) ="absolute ?"
 
 puts "$::env(DIE_AREA) = 0 0 1250 1250 ?"
 
+DIEAREA ( 0 0 ) ( 1250000 1250000 ) ;
