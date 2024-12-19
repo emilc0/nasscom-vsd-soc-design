@@ -32,6 +32,11 @@ wns -28.03
 **used in the videos**
 set ::env(SYNTH_STRATEGY) 2
 
+ko
+
+set ::env(SYNTH_STRATEGY) "DELAY 2"
+
+
 
 
 
