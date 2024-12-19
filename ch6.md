@@ -23,9 +23,8 @@ set ::env(SYNTH_STRATEGY) 1
 Area will increase, timing will improve:
 
 
-**default**
 
-set ::env(SYNTH_STRATEGY) "AREA 0"
+## set ::env(SYNTH_STRATEGY) "AREA 0"  (flow default)
 
 Chip area for module '\picorv32a': 149084.233600
 
@@ -35,13 +34,11 @@ wns -28.03
 
 
 
-**used in the videos ?! (it is not accepted by the tool)**
-set ::env(SYNTH_STRATEGY) 2
+## set ::env(SYNTH_STRATEGY) 2  (used in the videos ?! , not accepted by the tool)
 
 
 
-
-set ::env(SYNTH_STRATEGY) "DELAY 2"
+## set ::env(SYNTH_STRATEGY) "DELAY 2"
 
 Chip area for module '\picorv32a': 206839.625600
 
@@ -51,7 +48,7 @@ wns -6.26
 
 
 
-set ::env(SYNTH_STRATEGY) "DELAY 0"
+## set ::env(SYNTH_STRATEGY) "DELAY 0"
 
 Chip area for module '\picorv32a': 198778.144000
 
