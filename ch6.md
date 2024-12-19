@@ -1,6 +1,14 @@
 D4_SK1_L7
 
-synthesis timing driven (strike a balance delay/area)
+Try a timing-driven synthesis (strike a balance delay/area)
+
+**SYNTH_STRATEGY: Strategies for abc logic synthesis and technology mapping
+Possible values are DELAY/AREA 0-4/0-3; the first part refers to the optimization target of the synthesis strategy (area vs. delay) and the second one is an index.
+(Default: AREA 0)**
+
+Initially:
+
+set ::env(SYNTH_STRATEGY) "AREA 0"
 
 echo $::env(SYNTH_STRATEGY)
 
@@ -8,7 +16,7 @@ echo $::env(SYNTH_STRATEGY)
 
 SYNTH_STRATEGY=2 => area 228,590, tns=-1529.21, wns=-15.96
 
-% set $::env(SYNTH_STRATEGY) 1
+set ::env(SYNTH_STRATEGY) 1
 
 Area will increase, timing will improve:
 
