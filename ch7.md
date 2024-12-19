@@ -8,9 +8,11 @@ DELAY 0
 
 echo $::env(SYNTH_BUFFERING)
 
+(1, already on, fine)
+
 echo $::env(SYNTH_SIZING)
 
-(1, already on, fine)
+set ::env(SYNTH_SIZING) 1
 
 (was 0, put it at 1)
 
