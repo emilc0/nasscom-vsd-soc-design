@@ -67,11 +67,7 @@ wns -7.05
 
 
 
-https://stackoverflow.com/questions/78802242/saving-and-restoring-all-local-and-env-variables-in-tcl
-
-
-
-
+**choose set ::env(SYNTH_STRATEGY) "DELAY 0"**
 
 
 
