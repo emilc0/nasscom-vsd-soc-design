@@ -47,6 +47,6 @@ prep -design picorv32a -tag 16-12_12-43
 
 **Useful files:**
 
-gedit $WD/configuration/README.md $WD/configuration/synthesis.tcl $D/config.tcl $D/sky130A_sky130_fd_sc_hd_config.tcl $D/$R/config.tcl &
+gedit $WD/configuration/README.md $WD/configuration/synthesis.tcl $D/config.tcl $D/sky130A_sky130_fd_sc_hd_config.tcl $D/$R/config.tcl $D/$R/results/placement/picorv32a.placement.def &
 
 
