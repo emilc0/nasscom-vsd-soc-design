@@ -28,7 +28,10 @@ before (SYNTH_SIZING=0)
 
 ![image](https://github.com/user-attachments/assets/9e8ddfb4-ef6a-4014-a1f0-e9dfd6652730)
 
-after (SYNTH_SIZING=1)
+after (SYNTH_SIZING=1): the same:
+
+![image](https://github.com/user-attachments/assets/9fc2afc4-a485-49c2-a154-32d7abd99ed3)
+
 
 
 
