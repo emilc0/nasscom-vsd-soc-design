@@ -20,9 +20,15 @@ echo $::env(SYNTH_DRIVING_CELL)
 
 (sky130_inv8, ok)
 
+
 gedit 2-opensta.timing.rpt  &
 
+before (SYNTH_SIZING=0)
+
 ![image](https://github.com/user-attachments/assets/9e8ddfb4-ef6a-4014-a1f0-e9dfd6652730)
+
+after (SYNTH_SIZING=1)
+
 
 
 ## SET_strategy in the video is ko
