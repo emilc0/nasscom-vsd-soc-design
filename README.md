@@ -12,6 +12,9 @@
 
 [Cell Design and Characterization flows](ch5.md)
 
+[Improve slack by modifying synthesis parameters](ch7.md)
+
+
 
 
 [reference] (https://openlane.readthedocs.io/en/2023.09.07/reference/configuration.html)
