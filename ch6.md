@@ -35,6 +35,11 @@ set ::env(SYNTH_STRATEGY) 2
 ko
 
 set ::env(SYNTH_STRATEGY) "DELAY 2"
+Chip area for module '\picorv32a': 206839.625600
+tns -773.56
+wns -6.26
+
+
 
 
 
