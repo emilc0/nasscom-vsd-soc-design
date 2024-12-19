@@ -45,8 +45,22 @@ prep -design picorv32a -tag 16-12_12-43
 ![image](https://github.com/user-attachments/assets/ff06b1d5-db79-42cf-b493-98f227c2b64e)
 
 
-**Useful files:**
+## Useful files:
 
 gedit $WD/configuration/README.md $WD/configuration/synthesis.tcl $D/config.tcl $D/sky130A_sky130_fd_sc_hd_config.tcl $D/$R/config.tcl $D/$R/results/floorplan/picorv32a.floorplan.def  $D/$R/results/placement/picorv32a.placement.def &
 
+
+## all commands to rerun
+
+flow.tcl -interactive
+
+package require openlane 0.9
+
+prep -design picorv32a -tag 16-12_12-43 -overwrite
+
+run_synthesis
+
+run_floorplan
+
+run_placement
 
