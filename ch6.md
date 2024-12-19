@@ -4,6 +4,8 @@ synthesis timing driven (strike a balance delay/area)
 
 echo $::env(SYNTH_STRATEGY)
 
+=> "AREA 0"
+
 SYNTH_STRATEGY=2 => area 228,590, tns=-1529.21, wns=-15.96
 
 % set $::env(SYNTH_STRATEGY) 1
