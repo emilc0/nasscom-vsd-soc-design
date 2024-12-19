@@ -8,5 +8,5 @@
 
 [Placement](ch4.md)
 
-[Cell Design and Characterization flows (ch5.md)
+[Cell Design and Characterization flows](ch5.md)
 
