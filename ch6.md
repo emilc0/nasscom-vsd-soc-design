@@ -39,6 +39,10 @@ wns -6.26
 
 **set ::env(SYNTH_STRATEGY) "DELAY 0"**
 
+Chip area for module '\picorv32a': 198778.144000
+tns -788.53
+wns -5.52
+
 
 
 
