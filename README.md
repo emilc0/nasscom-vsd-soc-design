@@ -8,7 +8,7 @@
 
 [Placement](ch4.md)
 
-[Synthesis - work on slack](ch6)
+[Synthesis - work on slack](ch6.md)
 
 [Cell Design and Characterization flows](ch5.md)
 
