@@ -7,3 +7,6 @@
 [Floorplanning](ch3.md)
 
 [Placement](ch4.md)
+
+[Cell Design and Characterization flows (ch5.md)
+
