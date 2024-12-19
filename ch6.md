@@ -23,3 +23,15 @@ set ::env(SYNTH_STRATEGY) 1
 Area will increase, timing will improve:
 
 
+**default**
+set ::env(SYNTH_STRATEGY) "AREA 0"
+Chip area for module '\picorv32a': 149084.233600
+tns -4560.27
+wns -28.03
+
+**used in the videos**
+set ::env(SYNTH_STRATEGY) 2
+
+
+
+
